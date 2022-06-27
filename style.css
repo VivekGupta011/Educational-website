@@ -42,6 +42,9 @@ a:hover{
     .padding-top {
         padding-top: 6rem!important;
     }
+    li.nav-item.me-md-3 {
+        font-size: 1.0rem !important;
+    }
 }
 
 
@@ -167,9 +170,7 @@ p{
     border-color: var(--primary-color);
 }
 
-li.nav-item.me-md-3 {
-    font-size: 1.2rem !important;
-}
+
 
 
 /* bootstrap hambergur icon */
@@ -196,4 +197,41 @@ a.fill-btn {
 .fundamental-section a {
     text-decoration: none !important;
     color: black !important;
+}
+i.bx.bxs-bot {
+    color: aliceblue;
+    font-size: 90px;
+}
+
+
+i.bx.bxs-user-plus {
+    color: aliceblue;
+    font-size: 90px;
+}
+
+
+.accordion-button:not(.collapsed) {
+    color: white !important;
+    background-color: rgba(1, 33, 72, 0.5) !important;
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.1) !important;
+}
+
+
+.accordion-button:focus {
+    z-index: 3 !important;
+    border-color: rgba(1, 33, 72, 0.8) !important;
+    outline: 0 !important;
+    /* box-shadow: 0 0 0 .25rem rgba(13,110,253,.25); */
+}
+
+.fixed-bgg{
+    background-image: url(./images/background-attachment.webp);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:320px;
+    width: 100%;
+    background-size: cover;
+    
+
 }
