@@ -3,13 +3,17 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content=N"width=device-width, initial-scale=1" />
     <!-- bootstrap icons -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
     />
-
+    <!-- fontawesome icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
     <!-- boxicons icons -->
     <link
       href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
@@ -24,8 +28,9 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
 
-    <title>Cryptocurrency Website</title>
+    <title>Educational Website</title>
   </head>
   <body>
     <nav
@@ -34,10 +39,7 @@
     >
       <div class="container-fluid">
         <a class="navbar-brand" href="#"
-          ><img
-            src="./images/image-removebg-preview (2).png"
-            alt=""
-            width="120px"
+          ><img src="./images/logoo.png" alt="" width="70px"
         /></a>
         <button
           class="navbar-toggler"
@@ -55,33 +57,34 @@
             class="navbar-nav me-auto mb-2 mb-md-0 mb-lg-0 justify-content-center offset-lg-2"
           >
             <li class="nav-item me-md-3">
-              <a class="nav-link active" aria-current="page" href="#"
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="#topic_covered"
                 >What You'll Learn</a
               >
             </li>
-            <li class="nav-item me-md-3">
+            <!-- <li class="nav-item me-md-3">
               <a class="nav-link" href="#">Feature</a>
-            </li>
+            </li> -->
             <li class="nav-item me-md-3">
-              <a
-                class="nav-link"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
+              <a class="nav-link" href="#questionAnswers" aria-current="page">
                 Question
               </a>
             </li>
 
-            <li class="nav-item me-md-3">
+            <!-- <li class="nav-item me-md-3">
               <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">
                 Pricing</a
               >
-            </li>
+            </li> -->
             <li class="nav-item me-md-3">
-              <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">
+              <a
+                class="nav-link"
+                href="#mentor"
+                tabindex="-1"
+                aria-disabled="true"
+              >
                 Our Instructors</a
               >
             </li>
@@ -89,7 +92,7 @@
 
           <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
           <button class="main-btn me-3" type="submit">Login</button>
-          <button class="fill-btn" type="submit">Sign Up</button>
+          <a class="fill-btn" href="#contactus" type="submit"> Contact us </a>
         </div>
       </div>
     </nav>
@@ -128,7 +131,7 @@
             <input
               type="text"
               class="form-control"
-              placeholder="Enter Enail"
+              placeholder="Enter Email"
               aria-label="Recipient's username"
               aria-describedby="button-addon2"
             />
@@ -211,6 +214,7 @@
     <section
       class="p-5 pt-2 pb-2"
       style="background-color: rgba(208, 208, 208, 0.3)"
+      id="topic_covered"
     >
       <div class="container">
         <div class="row">
@@ -241,7 +245,7 @@
       </div>
     </section>
 
-    <section class="p-5 pb-2 fixed-bgg">
+    <section class="p-5 pb-2 fixed-bgg" id="instructors">
       <div class="container contain-bg">
         <div class="row">
           <div class="col">
@@ -250,7 +254,7 @@
         </div>
       </div>
     </section>
-    <section class="p-5 pt-4 pb-2 bg-dark">
+    <section class="p-5 pt-4 pb-2 bg-dark" id="learn">
       <div class="container">
         <div class="row">
           <div
@@ -283,7 +287,7 @@
         </div>
       </div>
     </section>
-    <section class="p-5" id="question">
+    <section class="p-5" id="questionAnswers">
       <div class="container">
         <h2
           class="text-center my-5 mt-lg-1"
@@ -312,7 +316,7 @@
               data-bs-parent="#accordionExample"
             >
               <div class="accordion-body">
-                <strong> The medium of instruction at Masai is English.</strong>
+                <strong> The medium of instruction at is English.</strong>
                 All lectures are delivered in English. As part of the
                 curriculum, we also help you develop your written and verbal
                 communication skills that help you
@@ -330,8 +334,7 @@
                 aria-expanded="false"
                 aria-controls="collapseTwo"
               >
-                Will I receive a degree or certificate when I graduate from
-                Masai?
+                Will I receive a degree or certificate when I graduate from ?
               </button>
             </h2>
             <div
@@ -341,12 +344,12 @@
               data-bs-parent="#accordionExample"
             >
               <div class="accordion-body">
-                We do issue a certificate of completion upon graduation. But,
-                Masai is not a degree institution and we do not grant Bachelors
-                or Masters Degrees. The core focus at Masai is on skill
-                development and holistic learning. With that in mind, we have
-                not tied up with any education institution for certification. We
-                believe skills > degrees. overflow.
+                We do issue a certificate of completion upon graduation. But, is
+                not a degree institution and we do not grant Bachelors or
+                Masters Degrees. The core focus at is on skill development and
+                holistic learning. With that in mind, we have not tied up with
+                any education institution for certification. We believe skills >
+                degrees. overflow.
               </div>
             </div>
           </div>
@@ -482,64 +485,310 @@
       </div>
     </section>
 
-    <!-- testimonial -->
-    <section class="p-5">
+    <section>
       <div class="container">
         <h2
           class="text-center my-5 mt-lg-1"
           style="color: black; font-weight: 500"
         >
           What say Our Student About this Class
+          <hr />
         </h2>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
           <div class="col">
-            <div class="card h-100">
-              <img src="./images/testimo.jpg" class="card-img-top" alt="..." />
+            <div class="card" style="padding: 16px 5px">
+              <img
+                src="./images/student2.jpg"
+                class="card-img-top"
+                alt="..."
+                style="
+                  width: 54%;
+                  display: block;
+                  margin-left: auto;
+                  margin-right: auto;
+                  padding: 18px 5px;
+                "
+              />
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat necessitatibus, molestias voluptates in quasi consequatur nesciunt dicta voluptatum.
+                <h5 class="card-title">Aayushi Shah</h5>
+                <p class="card-text" style="color: black">
+                  I got placed within 2 days after graduation! I’m happy I am
+                  part of the family, not because they helped me but because of
+                  their mission to help other lost yet capable students out
+                  there.
                 </p>
-              </div>
-              <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="card h-100">
-              <img src="./images/testimo.jpg" class="card-img-top" alt="..." />
+            <div class="card">
+              <img
+                src="./images/student1.jpg"
+                class="card-img-top"
+                alt="..."
+                style="
+                  width: 54%;
+                  display: block;
+                  margin-left: auto;
+                  margin-right: auto;
+                  padding: 18px 5px;
+                "
+              />
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate odio dolor quod provident molestiae iure est soluta suscipit architecto?
+                <h5 class="card-title">Lokesh manjhi</h5>
+                <p class="card-text" style="color: black">
+                  Projects are a part of journey at . It gives the opportunity
+                  to work in a team, which gives a real experience of the
+                  corporate world. This helps students to develop a better
+                  understanding and enhances communication skills.
                 </p>
-              </div>
-              <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="card h-100">
-              <img src="./images/testimo.jpg" class="card-img-top" alt="..." />
+            <div class="card">
+              <img
+                src="./images/student4.jpg"
+                class="card-img-top"
+                alt="..."
+                style="
+                  width: 54%;
+                  display: block;
+                  margin-left: auto;
+                  margin-right: auto;
+                  padding: 18px 5px;
+                "
+              />
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo ratione necessitatibus pariatur distinctio culpa inventore placeat ullam incidunt magnam voluptatum.
+                <h5 class="card-title">Kailash triwari</h5>
+                <p class="card-text" style="color: black">
+                  From my experience all I can say is - Don’t give up. My
+                  transition from a B.Sc graduate to a Software Developer, that
+                  too in a pandemic, I am lucky to stand at par with my
+                  colleagues at Instamojo who come from premier institutes like
+                  the IITs. has shaped my professional career.
                 </p>
               </div>
-              <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="padding: 16px 5px">
+              <img
+                src="./images/student2.jpg"
+                class="card-img-top"
+                alt="..."
+                style="
+                  width: 54%;
+                  display: block;
+                  margin-left: auto;
+                  margin-right: auto;
+                  padding: 18px 5px;
+                "
+              />
+              <div class="card-body">
+                <h5 class="card-title">Ayushi shah</h5>
+                <p class="card-text" style="color: black">
+                  I got placed within 2 days after graduation! I’m happy I am
+                  part of the family, not because they helped me but because of
+                  their mission to help other lost yet capable students out
+                  there.
+                </p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+
+    <!-- testimonial -->
+    <section class="p-5" id="mentor">
+      <div class="container">
+        <h2
+          class="text-center my-5 mt-lg-1"
+          style="color: black; font-weight: 500"
+        >
+          Our Instructors
+          <hr />
+        </h2>
+
+        <div class="row row-cols-md-4">
+          <div
+            class="col-md-4 col-sm-6"
+            style="
+              box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+                0 6px 20px 0 rgba(0, 0, 0, 0.19);
+              color: #616161;
+            "
+          >
+            <div class="card h-100">
+              <img
+                src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Albert_28b73517f6.jpg"
+                class="card-img-top"
+                alt="..."
+                style="
+                  width: 80%;
+                  display: block;
+                  margin-left: auto;
+                  margin-right: auto;
+                  padding: 18px 5px;
+                "
+              />
+              <div class="card-body">
+                <h5 class="card-title" style="color: black; font-weight: 700">
+                  Arjun singh
+                </h5>
+                <p style="color: black">
+                  I got placed within 2 days after graduation! I’m happy I am
+                  part of the family, not because they helped me but because of
+                  their mission to help other lost yet capable students out
+                  there.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-md-4 col-sm-6"
+            style="
+              box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+                0 6px 20px 0 rgba(0, 0, 0, 0.19);
+              color: #616161;
+            "
+          >
+            <div class="card h-100">
+              <img
+                src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Arjun_3848ab5fe7.jpg"
+                class="card-img-top"
+                alt="..."
+                style="
+                  width: 80%;
+                  display: block;
+                  margin-left: auto;
+                  margin-right: auto;
+                  padding: 18px 5px;
+                "
+              />
+              <div class="card-body">
+                <h5 class="card-title" style="color: black; font-weight: 700">
+                  omkar raut
+                </h5>
+                <p class="card-text" style="color: black">
+                  Projects are a part of journey at . It gives the opportunity
+                  to work in a team, which gives a real experience of the
+                  corporate world. This helps students to develop a better
+                  understanding and enhances communication skills.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-md-4 col-sm-6"
+            style="
+              box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+                0 6px 20px 0 rgba(0, 0, 0, 0.19);
+              color: #616161;
+            "
+          >
+            <div class="card h-100">
+              <img
+                src="https://masai-website-images.s3.ap-south-1.amazonaws.com/manideep_a3297e3e7f.png"
+                class="card-img-top"
+                alt="..."
+                style="
+                  width: 80%;
+                  display: block;
+                  margin-left: auto;
+                  margin-right: auto;
+                  padding: 18px 5px;
+                "
+              />
+              <div class="card-body">
+                <h5 class="card-title" style="color: black; font-weight: 700">
+                  Suraj triwari
+                </h5>
+                <p class="card-text" style="color: black">
+                  From my experience all I can say is - Don’t give up. My
+                  transition from a B.Sc graduate to a Software Developer, that
+                  too in a pandemic, I am lucky to stand at par with my
+                  colleagues at Instamojo who come from premier institutes like
+                  the IITs. has shaped my professional career.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-form" id="contactus">
+      <div class="container">
+        <h2
+          class="text-center my-5 mt-lg-1"
+          style="color: black; font-weight: 500"
+        >
+          Subscribe Us for Newsletter
+          <hr />
+        </h2>
+        <div class="row custom-form">
+          <form
+            action=""
+            name="registration"
+            onsubmit="return formValidation();"
+          >
+            <div class="col-md-8">
+              <div class="mb-3">
+                <label
+                  for="exampleFormControlInput1"
+                  class="form-label"
+                  style="color: white"
+                >
+                  Name</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="Your Name"
+                />
+              </div>
+              <div class="mb-3">
+                <label
+                  for="exampleFormControlInput1"
+                  class="form-label"
+                  style="color: white"
+                  >Email address</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="name@example.com"
+                />
+              </div>
+              <div class="mb-3">
+                <label
+                  for="exampleFormControlTextarea1"
+                  class="form-label"
+                  style="color: white"
+                  >Your Message</label
+                >
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="3"
+                  placeholder="Message"
+                ></textarea>
+              </div>
+              <a class="mybtn-anchor-contact" href="">
+                <div class="mybtnn">Send</div>
+              </a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
     <section
       class="mb-0 mb-sm-0"
-      style="background-color: rgba(1, 33, 72, 0.9);padding: 1.5rem;"
+      style="background-color: rgba(1, 33, 72, 0.9); padding: 0.5rem"
     >
       <div class="container">
         <div class="text-center">
